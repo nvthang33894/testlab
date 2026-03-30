@@ -19,7 +19,7 @@ jobs:
               "app": "payment-service",
               "environment": "nothing",
               "namespace": "default",
-              "image": "myabc/payment-service",
+              "image": "nvthang33894/payment-service",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
               "commit": "${{ github.sha }}",
