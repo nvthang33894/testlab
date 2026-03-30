@@ -17,8 +17,8 @@ jobs:
             -d '{
               "customer": "abc",             
               "app": "payment-service",
-              "environment": "production",
-              "namespace": "abc-prod",
+             
+            
               "image": "myrepo/payment-service",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
