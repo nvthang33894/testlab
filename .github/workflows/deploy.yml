@@ -17,8 +17,8 @@ jobs:
             -d '{
               "customer": "abc",             
               "app": "payment-service",
-              "environment": 'nothing',
-              "namespace": 'nothing',
+              "environment": "nothing",
+              "namespace": "nothing",
               "image": "myabc/payment-service",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
