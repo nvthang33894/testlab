@@ -18,7 +18,7 @@ jobs:
               "customer": "abc",             
               "app": "payment-service",
               "environment": "nothing",
-              "namespace": "nothing",
+              "namespace": "default",
               "image": "myabc/payment-service",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
