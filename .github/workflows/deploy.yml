@@ -19,7 +19,7 @@ jobs:
               "app": "payment-service",
              
             
-              "image": "myrepo/payment-service",
+              "image": "myabc/payment-service",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
               "commit": "${{ github.sha }}",
