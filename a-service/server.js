@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello World, fix lai format, dug ghrc.io ");
+  res.send("Hello World, fix lai format, dug ghrc.iofa ");
 });
 
 app.listen(PORT, "0.0.0.0", () => {
