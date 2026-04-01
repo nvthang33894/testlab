@@ -16,10 +16,10 @@ jobs:
             -H "x-api-key: ${{ secrets.API_KEY }}" \
             -d '{
               "customer": "abc",             
-              "app": "abc-payment-service",
+              "app": "testlab",
               "environment": "nothing",
               "namespace": "default",
-              "image": "nvthang33894/abc-payment-service",
+              "image": "nvthang33894/testlab",
               "tag": "${{ github.sha }}",
               "branch": "${{ github.ref_name }}",
               "commit": "${{ github.sha }}",
